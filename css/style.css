@@ -1,0 +1,109 @@
+
+#top_nav{
+    background-color: #daac00;
+    padding: 1% 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+    font-size: 20px;
+    padding-left: 25px;
+}
+
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0px;
+    border-radius: 0;
+    position:relative;
+    left: 50px;
+    box-shadow: 5px 10px 11px 0px #00000021;
+}
+
+#searchbox::placeholder{
+    color: white;
+}
+
+#searchButton
+{
+    position:relative;
+    z-index: 99;
+    background-color:#00bec9;
+    color: white;
+    border-radius: 0;
+}
+
+/* responsiveness of nav-bar*/
+
+@media only screen and (max-width: 768px){
+    #searchform{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -20px;
+        
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #top_nav{
+        padding:0;
+    }
+}
+
+/*banner*/
+
+#banner{
+    background-color:#fcc302;
+}
+
+#banner-text h1{
+    color: white;
+    font-size: 60px;
+    margin-top:50px;
+}
+
+#bannertext p{
+    color:white;
+    font-size:20px;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+#banner-btn-1{
+    background-color:#00bec9;
+    border: 2px solid #00bec9;
+    color:white;
+}
+
+#banner-btn-2{
+   color: white;
+   border: 2px solid white;
+   margin-left: 15px;
+}
+
+/* banner responsiveness*/
+
+@media only screen and (max-width:1300px){
+    #banner-text h1{
+        font-size: 50px;
+    }
+
+    #banner-img{
+        padding-top: 70px;
+        width: 380px;
+        height:100px;  
+    }
+
+    #banner{
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #banner-text h1{
+        font-size:40px;
+    }
+}
+
+
