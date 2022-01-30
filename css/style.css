@@ -104,6 +104,52 @@
     #banner-text h1{
         font-size:40px;
     }
+   
 }
 
+/*service*/
 
+#service-text{
+    padding-top: 7%;
+    padding-bottom: 4%;
+    
+}
+
+#service-btn{
+    color:white;
+    background-color:#fcc302;
+    border: 2px solid #fcc302;
+}
+
+#service-img{
+    padding: 4%;
+    margin-top: 50px;
+   
+}
+
+@media only screen and (max-width: 768px){
+   #service-img{
+      padding-top:10%;
+   }
+}
+
+/*banner padding on ipad*/
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    #banner{
+        padding-left:50px;
+    }
+ }
+
+ /*counter*/
+
+ #counter-section{
+     background-color: #d8a706;
+     padding-top: 50px;
+     padding-bottom: 70px;
+     background-position:center;
+     
+ }
+
+.counter-icon{
+    font-size: 50px;
+}
